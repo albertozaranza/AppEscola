@@ -9,7 +9,7 @@
     }
   },
   "lint-staged": {
-    "*.{ts, tsx}": [
+    "**/*.ts?(x)": [
       "eslint --fix",
       "prettier --write",
       "git add ."
